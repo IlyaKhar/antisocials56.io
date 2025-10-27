@@ -1,0 +1,37 @@
+{
+  "name": "antisocials56-website",
+  "version": "1.0.0",
+  "description": "Professional car detailing website for Antisocials56",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass assets/css/main.sass assets/css/main.css --watch",
+    "sass:build": "sass assets/css/main.sass assets/css/main.css --style=compressed",
+    "serve": "python -m http.server 8000",
+    "dev": "npm run sass & npm run serve"
+  },
+  "keywords": [
+    "detailing",
+    "car-care",
+    "website",
+    "html",
+    "sass",
+    "javascript",
+    "responsive"
+  ],
+  "author": "IlyaKhar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IlyaKhar/antisocials56.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IlyaKhar/antisocials56.io/issues"
+  },
+  "homepage": "https://ilyakhar.github.io/antisocials56.io/",
+  "devDependencies": {
+    "sass": "^1.69.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
